@@ -24,7 +24,7 @@ jobs:
       - ls -la
       - shasum -a 256 js-sem-rel-basic-linux > js-sem-rel-basic-linux.sha256
       - shasum -a 256 js-sem-rel-basic-macos > js-sem-rel-basic-macos.sha256
-      - shasum -a 256 js-sem-rel-basic-win.exe > js-sem-rel-basic.exe.sha256
+      - shasum -a 256 js-sem-rel-basic-win.exe > js-sem-rel-basic-win.exe.sha256
       - ls -la
       - npx semantic-release
 #       - npm i -g semantic-release @semantic-release/exec && semantic-release
