@@ -3,8 +3,8 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     ["@semantic-release/exec", {
-      "verifyConditionsCmd": "./verify.sh",
-      "publishCmd": "echo ${nextRelease.version} ${options.branch} ${commits.length} ${Date.now()}"
+      "verifyConditionsCmd": "echo verify",
+      "publishCmd": "echo publish ${nextRelease.version} ${options.branch} ${commits.length} ${Date.now()}"
     }],
   ]
 }
