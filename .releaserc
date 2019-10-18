@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    ["@semantic-release/exec", {
+      "verifyConditionsCmd": "echo verify",
+      "publishCmd": "echo publish ${nextRelease.version} ${options.branch} ${commits.length} ${Date.now()}"
+    }],
+  ]
+}
