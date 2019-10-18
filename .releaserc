@@ -12,4 +12,41 @@
         "cmd": "echo hello"
       }
   ],
+  "publish": [
+      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/github",
+        "assets": [
+          {
+            "path": "./js-sem-rel-basic-linux",
+            "name": "js-sem-rel-basic-linux",
+            "label": "js-sem-rel-basic-linux"
+          },
+          {
+            "path": "./js-sem-rel-basic-linux.sha256",
+            "name": "js-sem-rel-basic-linux.sha256",
+            "label": "js-sem-rel-basic-linux.sha256"
+          },
+          {
+            "path": "./js-sem-rel-basic-macos",
+            "name": "js-sem-rel-basic-macos",
+            "label": "js-sem-rel-basic-macos"
+          },
+          {
+            "path": "./js-sem-rel-basic-macos.sha256",
+            "name": "js-sem-rel-basic-macos.sha256",
+            "label": "js-sem-rel-basic-macos.sha256"
+          },
+          {
+            "path": "./js-sem-rel-basic-win.exe",
+            "name": "js-sem-rel-basic-win.exe",
+            "label": "js-sem-rel-basic-win.exe"
+          },
+          {
+            "path": "./js-sem-rel-basic-win.exe.sha256",
+            "name": "js-sem-rel-basic-win.exe.sha256",
+            "label": "js-sem-rel-basic-win.exe.sha256"
+          }
+        ]
+
 }
