@@ -15,6 +15,7 @@
     "url": "https://github.com/jeff-snyk/js-sem-rel-basic.git"
   },
   "devDependencies": {
+    "@semantic-release/exec": "^3.3.7",
     "semantic-release": "^15.13.24"
   }
 }
